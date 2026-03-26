@@ -1,0 +1,42 @@
+# -----------------------
+# Web framework
+# -----------------------
+fastapi
+uvicorn[standard]      # Includes uvloop & httptools for production speed
+
+# -----------------------
+# HTTP client
+# -----------------------
+httpx
+
+# -----------------------
+# Environment variables
+# -----------------------
+python-dotenv
+
+# -----------------------
+# MongoDB
+# -----------------------
+pymongo
+
+# -----------------------
+# Auth / Security
+# -----------------------
+passlib[argon2]        # Password hashing
+python-jose             # JWT creation and verification
+
+# -----------------------
+# Email (SendGrid)
+# -----------------------
+sendgrid
+
+# -----------------------
+# Validation / Schemas
+# -----------------------
+pydantic
+email-validator
+
+# -----------------------
+# Performance / JSON parsing
+# -----------------------
+orjson                 # Faster JSON serialization for FastAPI
