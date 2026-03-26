@@ -54,7 +54,7 @@ youtube_backend/
 
 ```bash
 # Clone the repository
-git clone <repo_url>
+git clone https://github.com/Eric428-a/youtube-backend-learning.git
 cd youtube_backend
 
 # Install dependencies
